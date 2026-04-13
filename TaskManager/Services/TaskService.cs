@@ -1,5 +1,7 @@
 ﻿using TaskManager.Models;
 
+using TaskManager.Models;
+
 namespace TaskManager.Services
 {
     public class TaskService

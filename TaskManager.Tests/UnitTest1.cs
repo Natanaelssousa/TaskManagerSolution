@@ -36,5 +36,15 @@ namespace TaskManager.Tests
 
             Assert.That(tarefas.Count, Is.EqualTo(2));
         }
+
+        [Test]
+        public void DeveRetornarListaVaziaQuandoNaoHouverTarefas()
+        {
+            var service = new TaskService();
+
+            var tarefas = service.Listar();
+
+            Assert.That(tarefas.Count, Is.EqualTo(0));
+        }
     }
 }
