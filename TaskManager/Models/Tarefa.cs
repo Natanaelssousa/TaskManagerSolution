@@ -2,6 +2,6 @@
 {
     public class Tarefa
     {
-        public string Titulo { get; set; } = string.Empty; 
+        public string Titulo { get; set; } = string.Empty;
     }
 }
